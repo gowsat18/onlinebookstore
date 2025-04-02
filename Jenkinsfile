@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'pmmurugan798/onlinebookstore:latest'
+        DOCKER_IMAGE = 'gowsat18/onlinebookstore:latest'
     }
     stages {
         stage('Docker Login') {
