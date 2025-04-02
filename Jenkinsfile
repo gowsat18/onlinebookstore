@@ -2,10 +2,10 @@ ipeline {
      agent any
  
      environment {
-         IMAGE_NAME = "muruganpm/onlinebookstore"
+         IMAGE_NAME = "gowsat18/onlinebookstore"
          CONTAINER_NAME = "onlinebookstore-container"
          HOST_PORT = "8081"
-         DOCKER_IMAGE = 'pmmurugan798/onlinebookstore:latest'
+         DOCKER_IMAGE = 'gowsat18/onlinebookstore:latest'
      }
  
      stages {
