@@ -1,7 +1,7 @@
 # Stage 1: Build the app
 FROM maven:3.9.5-eclipse-temurin-17 AS builder
 WORKDIR /app
-RUN git clone https://github.com/muruganpm/onlinebookstore.git .
+RUN git clone https://github.com/gowsat18/onlinebookstore.git .
 RUN mvn clean package
 
 # Stage 2: Deploy to Tomcat
