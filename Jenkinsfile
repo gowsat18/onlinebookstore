@@ -16,7 +16,7 @@ pipeline {
         stage('Build & Push Image') {
             steps {
                 sh '''
-                docker build -t $DOCKER_IMAGE .
+                docker build --no-cache -t $DOCKER_IMAGE .
                 docker push $DOCKER_IMAGE
                 '''
             }
